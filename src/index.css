@@ -1,0 +1,14 @@
+.main-cont ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.main-cont ul li{
+    padding:10px;
+    border: 1px solid black;
+}
+.main-cont ul li span{
+    padding-right:10px;
+}
+.hide{
+    display: none;
+}
