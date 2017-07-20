@@ -28,7 +28,8 @@ class GridContainer extends Component{
     render(){
        
         return(
-            <div className ="main-cont">
+            <div className ="main-cont page-header">
+                <h1>GRID</h1>
                <CountRow count ={this.state.count}/>
                <RowList updateCount ={this.updateCount} count ={this.state.count}/>
             </div>

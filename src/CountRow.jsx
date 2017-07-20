@@ -1,7 +1,7 @@
 import React ,{Component} from 'react';
 
 let CountRow = (props) => (
-    <span className = "count">Count: {props.count}</span>
+   <div className ="count">Count :<span className = "badge">{props.count}</span></div>
 );
 
 export default CountRow;
