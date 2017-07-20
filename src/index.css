@@ -1,13 +1,23 @@
+.main-cont div span.count{
+    position: absolute;
+    top: 76px;
+    left: 971px;
+}
 .main-cont ul{
     display: inline-block;
     list-style-type: none;
+    margin-top:100px;
 }
 .main-cont ul li{
-    padding:10px;
+    padding:20px;
     border: 1px solid black;
+    width:1000px;
 }
 .main-cont ul li span{
     padding-right:10px;
+}
+.main-cont ul li input{
+    float:right;
 }
 .hide{
     display: none;

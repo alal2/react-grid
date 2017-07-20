@@ -8,12 +8,15 @@ class ActionButton extends Component {
     }
 
     delRow(event){
-        var trgId =event.target.id;
+        var trgId =event.target.id,
+         newCount = this.props.count -1;
         this.props.delHandler(trgId);
+        console.log(newCount)
+        this.props.updateCountHandler(newCount);
     }
     render(){
         return(
-            <input type="button" value ="Delete" id = {this.props.id} onClick ={this.delRow}/>
+            <input type="button" className ="btn btn-warning" value ="Delete" id = {this.props.id} onClick ={this.delRow}/>
         )
     }
 }
